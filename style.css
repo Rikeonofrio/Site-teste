@@ -1,0 +1,460 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+/* Fonts */
+
+.header-1,
+.header-2 {
+    font-family: Georgia, 'Times New Roman';
+    font-weight: 400;
+}
+footer, .h2, #Logotipo2, #endereço2, #endereço3{
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+    font-weight: 100;
+}
+.banner2, #Orçamento, #zap, #EnvioCadasto, .rodapé {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: bold;
+}
+#parce1,#parce2,#parce3,#parce4 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+/*imagens e cores  */
+
+
+.container {
+    display: flexbox;
+}
+
+.header-1 {
+    padding-left: 108px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: #ffff;
+    background-color: rgb(189, 47, 47);
+    display: inline-flex;
+
+
+}
+
+H6 {
+
+    margin-top: 25px;
+    font-size: 12px;
+    padding-right: 33px;
+    padding-left: 254px;
+}
+
+.number-1,
+.number-2,
+.number-3 {
+    display: flexbox;
+    align-items: flex-end;
+    padding-left: 51px;
+    color: rgb(238, 200, 31);
+    font-size: 10px;
+    margin-bottom: 0 auto;
+
+}
+
+.header-2 {
+    width: 100;
+    color: #ffff;
+    background-color: rgba(240, 22, 22, 0.863);
+    min-width: 0 auto;
+    padding: 11px;
+    display: inline-flex;
+
+}
+
+#cabecalho {
+    width: 85%;
+    padding: 15px 20px 20px 150px;
+    margin-left: 8px;
+    font-weight: bold;
+
+}
+
+.cabecalho-2,
+.cabecalho-3,
+.cabecalho-4,
+.cabecalho-5,
+.cabecalho-6 {
+    margin-left: 45px;
+    margin-right: 50px;
+    color: #fff;
+    background-color: rgba(240, 22, 22, 0.863);
+    border: none;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    white-space: nowrap;
+}
+
+.Banner1 {
+
+    padding-top: 20px;
+    padding-bottom: 150px;
+    background: rgba(0, 0, 0, 0.7) url('img/gondolasPretas.jpg');
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    background-position: center center fixed;
+    color: #ffff;
+}
+
+.BannerH1 {
+    display: block;
+    margin-top: 100px;
+    margin-left: 600px;
+    margin-right: 3px;
+    margin-bottom: 30px;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+#textBanner1 {
+    display: block;
+    margin-top: 50px;
+    margin-left: 620px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    font-size: 17px;
+}
+
+#strongBanner1 {
+    display: block;
+    margin-top: 10px;
+    margin-left: 630px;
+    margin-right: 3px;
+    margin-bottom: 30px;
+    font-size: 19px;
+}
+
+#Orçamento1 {
+    display: block;
+    margin-left: 760px;
+    margin-right: px;
+    margin-bottom: 30px;
+    font-size: 25px;
+    background-color: rgba(226, 224, 115, 0.863);
+    border: none;
+    cursor: pointer;
+    border-radius: 5px 5px 5px 5px;
+    font-weight: bold;
+
+}
+
+.banner2 {
+    display: flex;
+    color: rgb(206, 172, 22);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    background-position: center center fixed;
+
+}
+
+.p-1 {
+    display: block;
+    background-color: rgb(68, 67, 67);
+    font-size: 15px;
+    font-weight: bold;
+    padding: 40px;
+}
+
+.p-2 {
+    display: block;
+    background-color: rgb(44, 44, 44);
+    font-size: 15px;
+    font-weight: bold;
+    padding: 40px;
+}
+
+.p-3 {
+    display: block;
+    background-color: rgb(37, 37, 37);
+    font-size: 15px;
+    font-weight: bold;
+    padding: 40px;
+}
+
+.p-4 {
+    display: block;
+    background-color: rgb(29, 28, 28);
+    font-size: 15px;
+    font-weight: bold;
+    padding: 40px;
+}
+
+#b1 {
+
+    color: #fff;
+    padding: 10px;
+    background-color: rgb(68, 67, 67);
+    cursor: pointer;
+    border-radius: 5px 5px 5px 5px;
+    text-decoration: dotted;
+    font-size: 10px;
+    border-color: #fff;
+    margin-top: 20px;
+
+}
+
+#b2 {
+    color: #fff;
+    padding: 10px;
+    background-color: rgb(44, 44, 44);
+    cursor: pointer;
+    border-radius: 5px 5px 5px 5px;
+    text-decoration: dotted;
+    font-size: 10px;
+    border-color: #fff;
+    margin-top: 20px;
+}
+
+#b3 {
+    color: #fff;
+    padding: 10px;
+    background-color: rgb(37, 37, 37);
+    cursor: pointer;
+    border-radius: 5px 5px 5px 5px;
+    text-decoration: dotted;
+    font-size: 10px;
+    border-color: #fff;
+    margin: 20px;
+}
+
+#b4 {
+    color: #fff;
+    padding: 10px;
+    background-color: rgb(29, 28, 28);
+    cursor: pointer;
+    border-radius: 5px 5px 5px 5px;
+    text-decoration: dotted;
+    font-size: 10px;
+    border-color: #fff;
+    margin: 20px;
+}
+
+.container {
+    background-color: rgba(228, 175, 168, 0.288);
+}
+
+.h2 {
+    font-size: 35px;
+    font-weight: bolder;
+    width: 50%;
+    margin-top: 110px;
+    margin-left: 550px;
+}
+
+
+.IMAGENS {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.imagensProduto {
+    margin: 50px;
+}
+
+.valores {
+    display: block;
+}
+
+strong {
+    margin-top: 0;
+    display: inline-block;
+    padding-left: 120px;
+    padding-right: 120px;
+
+}
+
+#valores {
+    font-size: 40;
+    font-weight: bold;
+}
+
+p {
+    margin-top: 10px;
+    display: inline-block;
+    padding-left: 110px;
+    padding-right: 115px;
+    font-weight: lighter;
+}
+
+#parce1,
+#parce2,
+#parce3,
+#parce4 {
+    margin-top: 10px;
+    display: inline-block;
+    padding-left: 90px;
+    padding-right: 100px;
+    font-weight: inherit;
+    color: rgba(0, 0, 0, 0.596);
+    padding-bottom: 250px;
+}
+
+#zaph1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 12;
+}
+
+#zaph2 {
+    font-weight: lighter;
+    color: rgba(12, 12, 12, 0.466);
+}
+
+.zap-banner {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(255, 255, 255);
+    padding-left: 250px;
+}
+
+#zap {
+    color: #fff;
+    background-color: rgb(18, 104, 1);
+    cursor: pointer;
+    border-radius: 10px 10px 10px 10px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 60px;
+    margin-left: 170px;
+    margin-top: 20px;
+}
+
+.revendedor {
+    display: flex;
+    text-align: right;
+    background: rgb(27, 27, 27) url('img/form\ 2022-04-13\ 201302.png');
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    background-position: center center fixed;
+    color: #fff;
+    padding: 150px;
+
+
+}
+
+#h2form {
+
+    font-weight: bold;
+    font-size: 33;
+    vertical-align: bottom;
+    padding-left: 20px;
+}
+
+.form1 {
+    display: flexbox;
+    text-align: start;
+    align-items: flex-end;
+    justify-content: inherit;
+    border-radius: 5px 5px 5px 5px;
+    border-radius: 5px;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+    font-size: 15px;
+
+
+
+}
+
+#EnvioCadastro {
+    background: rgba(22, 22, 22, 0.274);
+    display: block;
+    font-size: 12px;
+    border-block-color: #fff;
+    cursor: pointer;
+    border-radius: 5px 5px 5px 5px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 5px;
+    margin-left: 20px;
+
+
+}
+#endereço2 {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: px;
+    
+}
+#endereço3 {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 200px;
+}
+.rodapé {
+    margin-left: 45px;
+    margin-right: 50px;
+    color: #fff;
+    border-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    white-space: nowrap;
+    
+}
+
+.a1, .a2, .a3, .a4, .a5, .a6 {
+    background-color: rgba(0, 0, 0, 0);
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    border-color: rgba(255, 85, 85, 0);
+}
+#Logotipo2 {
+    text-align: start;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+footer {
+    padding-top: 20px;
+    display: flexbox;
+    align-content: flex-start;
+    background-color: rgb(71, 62, 59);
+    color: #fff;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+
+/*<img  src="img/—Pngtree—whatsapp-icon-whatsapp-logo_3584844-300x300.png" alt="">/*
